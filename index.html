@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bus Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome Icons -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="glass-card">
+    <h1 class="title">🚌 Bus Search</h1>
+    <p class="subtitle">Search by Route Number or Stop Name</p>
+
+    <!-- Route Input -->
+    <div class="input-box">
+      <i class="fa-solid fa-road"></i>
+      <input
+        type="number"
+        id="routeNumber"
+        placeholder="Enter Route Number"
+        oninput="toggleInputs('route')"
+      >
+    </div>
+
+    <div class="or-divider">OR</div>
+
+    <!-- Stop Input -->
+    <div class="input-box">
+      <i class="fa-solid fa-location-dot"></i>
+      <input
+        type="text"
+        id="stopName"
+        placeholder="Enter Stop Name"
+        oninput="toggleInputs('stop')"
+      >
+    </div>
+
+    <!-- Button -->
+    <button id="searchBtn" onclick="searchBus()">Search</button>
+
+    <!-- Output -->
+    <div id="output"></div>
+  </div>
+
+<script>
+function toggleInputs(type) {
+  const route = document.getElementById("routeNumber");
+  const stop = document.getElementById("stopName");
+
+  if (type === "route" && route.value) stop.disabled = true;
+  else if (type === "stop" && stop.value) route.disabled = true;
+  else {
+    route.disabled = false;
+    stop.disabled = false;
+  }
+}
+
+async function searchBus() {
+  const routeNumber = document.getElementById("routeNumber").value;
+  const stopName = document.getElementById("stopName").value;
+  const output = document.getElementById("output");
+  const btn = document.getElementById("searchBtn");
+
+  if (!routeNumber && !stopName) {
+    output.innerHTML = "<p class='error'>Please enter Route Number or Stop Name</p>";
+    return;
+  }
+
+  btn.innerText = "Searching...";
+
+  let url = "/search?";
+  if (routeNumber) url += `routeNumber=${routeNumber}&`;
+  if (stopName) url += `stop=${stopName}`;
+
+  try {
+    const res = await fetch(url);
+    const data = await res.json();
+
+    btn.innerText = "Search";
+    output.innerHTML = "";
+
+    if (data.error) {
+      output.innerHTML = `<p class="error">${data.error}</p>`;
+      return;
+    }
+
+    data.forEach(bus => {
+      output.innerHTML += `
+        <div class="result-card">
+          <span class="badge">Route ${bus.routeNumber}</span>
+          <p><strong>${bus.routeName || "Route"}</strong></p>
+          <p>🚌 Bus: ${bus.busNumber}</p>
+          <p>⏰ Start: ${bus.startTime}</p>
+          <p>👨‍✈️ Driver: ${bus.driverName} (${bus.driverPhone})</p>
+          <p>🍺 Alcohol Level: ${bus.alcoholLevel}</p>
+          <p>🛞 Tire Pressure: ${bus.tirePressurePSI} PSI</p>
+          <p class="stops">${bus.stops.replaceAll("|", " • ")}</p>
+        </div>
+      `;
+    });
+
+  } catch (err) {
+    btn.innerText = "Search";
+    output.innerHTML = "<p class='error'>Server error</p>";
+  }
+}
+</script>
+
+</body>
+</html>
