@@ -1,0 +1,31 @@
+routeNumber,startTime,busNumber,gpsInfo,driverName,driverPhone,stops,alcoholLevel,tirePressurePSI
+1,06:50 AM,KA 11 C 0934,GPRS user ID & password-mit0934,Putta Swamy,8884232798,"Rotary College, JSS College Stop, DYSP Office, KEB Office, Pachhappa Circle, Maralli Circle, LIC Office",0.007,32.1
+2,06:55 AM,KA 11 C 0932,GPRS user ID & password-mit0932,Rajshekhar Murthy,8951886503,"Police Office, Old RTO Office, Gundlupete Circle, Aralimara (Gaalipura), KSRTC Bus Stand, Pacchappa Circle, Maralli Circle",0.019,35.9
+3,07:00 AM,KA 11 C 0951,GPRS user ID & password-mit0951,Sunil Kumar,9148761494,"Gundlupete KSRTC Bus Stand, Surabhi Lodge, Bendarahalli Gate, Garaganahalli, Raghavapura Gate",0.015,35.3
+4,07:25 AM,KA 11 C 0933,GPRS user ID & password-mit0933,Anand Kumar,7676822968,"Thagadur, Alaganchi, Madapatna Boundary, Begur Bus Stop, Begur Police Station",0.012,32.8
+5,07:35 AM,KA 11 C 0936,GPRS user ID & password-mit0936,Anand,9008890925,"CG Hundi, Devirammanahalli, Panyada Hundi, Konanuru, Mariyala",0.003,32.7
+6,07:00 AM,KA 11 C 0939,GPRS user ID & password-mit0939,Abhishek,6361271930,"Kollegala, Manasa, JSS College, Town Bus Stand",0.003,32.7
+7,07:00 AM,KA11C8162,GPRS user ID & password-mit8162,Siddaraju,9741292813,"KSRTC Bus Stand, Narasipura Road, Town Circle",0.001,33.2
+8,07:20 AM,KA 11 C 0940,GPRS user ID & password-mit0940,Prasanna,9591916090,"Narasipura Private Bus Stand, Market Circle, College Road",0.017,34.1
+9,07:10 AM,KA 11 C 0937,GPRS user ID & password-mit0937,Mohan Kumar,7022361016,"Narasipura KSRTC, Temple Road, Main Circle",0.012,33.7
+10,07:10 AM,KA11C8159,GPRS user ID & password-mit8159,Chandrashekhar,9591322445,"Kanakapura Main Road, Bus Depot, College Campus",0.014,33.2
+11,07:40 AM,KA 11 C 0941,GPRS user ID & password-mit0941,Ramesh,9845012345,"Begur Bus Stop, Begur Police Station, Madapatna Boundary, Thagadur, College Gate",0.011,33.6
+12,07:45 AM,KA 11 C 0942,GPRS user ID & password-mit0942,Suresh,9886123456,"Konanuru, Panyada Hundi, Mariyala, CG Hundi, Town Circle",0.013,32.9
+13,07:50 AM,KA 11 C 0943,GPRS user ID & password-mit0943,Manjunath,9738123456,"Surabhi Lodge, Bendarahalli Gate, Garaganahalli, Raghavapura Gate, Campus Road",0.009,34.2
+14,07:55 AM,KA 11 C 0944,GPRS user ID & password-mit0944,Shivakumar,9986012345,"Police Office, Old RTO Office, Gundlupete Circle, KSRTC Bus Stand, Market Road",0.016,35.1
+15,08:00 AM,KA 11 C 0945,GPRS user ID & password-mit0945,Harish,9448123456,"Kollegala, Manasa, JSS College Stop, DYSP Office, KEB Office",0.01,31.8
+16,08:05 AM,KA 11 C 0946,GPRS user ID & password-mit0946,Naveen,9902123456,"Narasipura KSRTC, Temple Road, Narasipura Market, College Road",0.012,33.4
+17,08:10 AM,KA 11 C 0947,GPRS user ID & password-mit0947,Prakash,9742123456,"Rotary College, Pachhappa Circle, Maralli Circle, LIC Office",0.008,34.0
+18,08:15 AM,KA 11 C 0948,GPRS user ID & password-mit0948,Santhosh,9845123456,"Alladamadalli Gate, Kavalande Police Station, Badanavalu, Campus Road",0.014,32.5
+19,08:20 AM,KA 11 C 0949,GPRS user ID & password-mit0949,Arun,9449123456,"Town Bus Stand, Market Circle, Hostel Road, College Gate",0.006,33.9
+20,08:25 AM,KA 11 C 0950,GPRS user ID & password-mit0950,Kiran,9739123456,"Kanakapura Main Road, Bus Depot, Town Circle, College Campus",0.015,34.6
+21,08:30 AM,KA 11 C 0952,GPRS user ID & password-mit0952,Raghavendra,9884123456,"Badanavalu, Kavalande Police Station, Alladamadalli Gate, Market Road, Campus Entry",0.011,32.8
+22,08:35 AM,KA 11 C 0953,GPRS user ID & password-mit0953,Santosh Kumar,9901123456,"Thagadur, Alaganchi, Madapatna Boundary, Hostel Road, College Gate",0.013,33.1
+23,08:40 AM,KA 11 C 0954,GPRS user ID & password-mit0954,Mahesh,9844123456,"Surabhi Lodge, Gundlupete Circle, Old RTO Office, Police Office, Town Circle",0.009,31.9
+24,08:45 AM,KA 11 C 0955,GPRS user ID & password-mit0955,Girish,9447123456,"Begur Bus Stop, Begur Police Station, Konanuru, Panyada Hundi, Mariyala",0.017,35.4
+25,08:50 AM,KA 11 C 0956,GPRS user ID & password-mit0956,Rajendra,9737123456,"Kollegala, Manasa, JSS College Stop, Rotary College, LIC Office",0.012,33.7
+26,08:55 AM,KA 11 C 0957,GPRS user ID & password-mit0957,Anil,9887123456,"Narasipura Private Bus Stand, Market Circle, Temple Road, Main Circle",0.01,32.4
+27,09:00 AM,KA 11 C 0958,GPRS user ID & password-mit0958,Deepak,9847123456,"Kanakapura Main Road, Bus Depot, Town Bus Stand, College Campus",0.016,34.8
+28,09:05 AM,KA 11 C 0959,GPRS user ID & password-mit0959,Srinivas,9446123456,"CG Hundi, Devirammanahalli, Konanuru, Madapatna Boundary",0.007,31.6
+29,09:10 AM,KA 11 C 0960,GPRS user ID & password-mit0960,Chethan,9736123456,"Bendarahalli Gate, Garaganahalli, Raghavapura Gate, Campus Road",0.014,33.3
+30,09:15 AM,KA 11 C 0961,GPRS user ID & password-mit0961,Vinod,9886123467,"KSRTC Bus Stand, Gundlupete Circle, Surabhi Lodge, College Entry",0.012,34.1
