@@ -1,0 +1,501 @@
+
+[
+  {
+    "routeNumber": 1,
+    "startTime": "06:50 AM",
+    "busNumber": "KA 11 C 0934",
+    "gpsInfo": "GPRS user ID & password-mit0934",
+    "driverName": "Putta Swamy",
+    "driverPhone": 8884232798,
+    "stops": [
+      "Rotary College",
+      "JSS College Stop",
+      "DYSP Office",
+      "KEB Office",
+      "Pachhappa Circle",
+      "Maralli Circle",
+      "LIC Office"
+    ],
+    "alcoholLevel": 0.007,
+    "tirePressurePSI": 32.1
+  },
+  {
+    "routeNumber": 2,
+    "startTime": "06:55 AM",
+    "busNumber": "KA 11 C 0932",
+    "gpsInfo": "GPRS user ID & password-mit0932",
+    "driverName": "Rajshekhar Murthy",
+    "driverPhone": 8951886503,
+    "stops": [
+      "Police Office",
+      "Old RTO Office",
+      "Gundlupete Circle",
+      "Aralimara (Gaalipura)",
+      "KSRTC Bus Stand",
+      "Pacchappa Circle",
+      "Maralli Circle"
+    ],
+    "alcoholLevel": 0.019,
+    "tirePressurePSI": 35.9
+  },
+  {
+    "routeNumber": 3,
+    "startTime": "07:00 AM",
+    "busNumber": "KA 11 C 0951",
+    "gpsInfo": "GPRS user ID & password-mit0951",
+    "driverName": "Sunil Kumar",
+    "driverPhone": 9148761494,
+    "stops": [
+      "Gundlupete KSRTC Bus Stand",
+      "Surabhi Lodge",
+      "Bendarahalli Gate",
+      "Garaganahalli",
+      "Raghavapura Gate"
+    ],
+    "alcoholLevel": 0.015,
+    "tirePressurePSI": 35.3
+  },
+  {
+    "routeNumber": 4,
+    "startTime": "07:25 AM",
+    "busNumber": "KA 11 C 0933",
+    "gpsInfo": "GPRS user ID & password-mit0933",
+    "driverName": "Anand Kumar",
+    "driverPhone": 7676822968,
+    "stops": [
+      "Thagadur",
+      "Alaganchi",
+      "Madapatna Boundary",
+      "Begur Bus Stop",
+      "Begur Police Station"
+    ],
+    "alcoholLevel": 0.012,
+    "tirePressurePSI": 32.8
+  },
+  {
+    "routeNumber": 5,
+    "startTime": "07:35 AM",
+    "busNumber": "KA 11 C 0936",
+    "gpsInfo": "GPRS user ID & password-mit0936",
+    "driverName": "Anand",
+    "driverPhone": 9008890925,
+    "stops": [
+      "CG Hundi",
+      "Devirammanahalli",
+      "Panyada Hundi",
+      "Konanuru",
+      "Mariyala"
+    ],
+    "alcoholLevel": 0.003,
+    "tirePressurePSI": 32.7
+  },
+  {
+    "routeNumber": 6,
+    "startTime": "07:00 AM",
+    "busNumber": "KA 11 C 0939",
+    "gpsInfo": "GPRS user ID & password-mit0939",
+    "driverName": "Abhishek",
+    "driverPhone": 6361271930,
+    "stops": [
+      "Kollegala",
+      "Manasa",
+      "JSS College",
+      "Town Bus Stand"
+    ],
+    "alcoholLevel": 0.003,
+    "tirePressurePSI": 32.7
+  },
+  {
+    "routeNumber": 7,
+    "startTime": "07:00 AM",
+    "busNumber": "KA11C8162",
+    "gpsInfo": "GPRS user ID & password-mit8162",
+    "driverName": "Siddaraju",
+    "driverPhone": 9741292813,
+    "stops": [
+      "KSRTC Bus Stand",
+      "Narasipura Road",
+      "Town Circle"
+    ],
+    "alcoholLevel": 0.001,
+    "tirePressurePSI": 33.2
+  },
+  {
+    "routeNumber": 8,
+    "startTime": "07:20 AM",
+    "busNumber": "KA 11 C 0940",
+    "gpsInfo": "GPRS user ID & password-mit0940",
+    "driverName": "Prasanna",
+    "driverPhone": 9591916090,
+    "stops": [
+      "Narasipura Private Bus Stand",
+      "Market Circle",
+      "College Road"
+    ],
+    "alcoholLevel": 0.017,
+    "tirePressurePSI": 34.1
+  },
+  {
+    "routeNumber": 9,
+    "startTime": "07:10 AM",
+    "busNumber": "KA 11 C 0937",
+    "gpsInfo": "GPRS user ID & password-mit0937",
+    "driverName": "Mohan Kumar",
+    "driverPhone": 7022361016,
+    "stops": [
+      "Narasipura KSRTC",
+      "Temple Road",
+      "Main Circle"
+    ],
+    "alcoholLevel": 0.012,
+    "tirePressurePSI": 33.7
+  },
+  {
+    "routeNumber": 10,
+    "startTime": "07:10 AM",
+    "busNumber": "KA11C8159",
+    "gpsInfo": "GPRS user ID & password-mit8159",
+    "driverName": "Chandrashekhar",
+    "driverPhone": 9591322445,
+    "stops": [
+      "Kanakapura Main Road",
+      "Bus Depot",
+      "College Campus"
+    ],
+    "alcoholLevel": 0.014,
+    "tirePressurePSI": 33.2
+  },
+  {
+    "routeNumber": 11,
+    "startTime": "07:40 AM",
+    "busNumber": "KA 11 C 0941",
+    "gpsInfo": "GPRS user ID & password-mit0941",
+    "driverName": "Ramesh",
+    "driverPhone": 9845012345,
+    "stops": [
+      "Begur Bus Stop",
+      "Begur Police Station",
+      "Madapatna Boundary",
+      "Thagadur",
+      "College Gate"
+    ],
+    "alcoholLevel": 0.011,
+    "tirePressurePSI": 33.6
+  },
+  {
+    "routeNumber": 12,
+    "startTime": "07:45 AM",
+    "busNumber": "KA 11 C 0942",
+    "gpsInfo": "GPRS user ID & password-mit0942",
+    "driverName": "Suresh",
+    "driverPhone": 9886123456,
+    "stops": [
+      "Konanuru",
+      "Panyada Hundi",
+      "Mariyala",
+      "CG Hundi",
+      "Town Circle"
+    ],
+    "alcoholLevel": 0.013,
+    "tirePressurePSI": 32.9
+  },
+  {
+    "routeNumber": 13,
+    "startTime": "07:50 AM",
+    "busNumber": "KA 11 C 0943",
+    "gpsInfo": "GPRS user ID & password-mit0943",
+    "driverName": "Manjunath",
+    "driverPhone": 9738123456,
+    "stops": [
+      "Surabhi Lodge",
+      "Bendarahalli Gate",
+      "Garaganahalli",
+      "Raghavapura Gate",
+      "Campus Road"
+    ],
+    "alcoholLevel": 0.009,
+    "tirePressurePSI": 34.2
+  },
+  {
+    "routeNumber": 14,
+    "startTime": "07:55 AM",
+    "busNumber": "KA 11 C 0944",
+    "gpsInfo": "GPRS user ID & password-mit0944",
+    "driverName": "Shivakumar",
+    "driverPhone": 9986012345,
+    "stops": [
+      "Police Office",
+      "Old RTO Office",
+      "Gundlupete Circle",
+      "KSRTC Bus Stand",
+      "Market Road"
+    ],
+    "alcoholLevel": 0.016,
+    "tirePressurePSI": 35.1
+  },
+  {
+    "routeNumber": 15,
+    "startTime": "08:00 AM",
+    "busNumber": "KA 11 C 0945",
+    "gpsInfo": "GPRS user ID & password-mit0945",
+    "driverName": "Harish",
+    "driverPhone": 9448123456,
+    "stops": [
+      "Kollegala",
+      "Manasa",
+      "JSS College Stop",
+      "DYSP Office",
+      "KEB Office"
+    ],
+    "alcoholLevel": 0.01,
+    "tirePressurePSI": 31.8
+  },
+  {
+    "routeNumber": 16,
+    "startTime": "08:05 AM",
+    "busNumber": "KA 11 C 0946",
+    "gpsInfo": "GPRS user ID & password-mit0946",
+    "driverName": "Naveen",
+    "driverPhone": 9902123456,
+    "stops": [
+      "Narasipura KSRTC",
+      "Temple Road",
+      "Narasipura Market",
+      "College Road"
+    ],
+    "alcoholLevel": 0.012,
+    "tirePressurePSI": 33.4
+  },
+  {
+    "routeNumber": 17,
+    "startTime": "08:10 AM",
+    "busNumber": "KA 11 C 0947",
+    "gpsInfo": "GPRS user ID & password-mit0947",
+    "driverName": "Prakash",
+    "driverPhone": 9742123456,
+    "stops": [
+      "Rotary College",
+      "Pachhappa Circle",
+      "Maralli Circle",
+      "LIC Office"
+    ],
+    "alcoholLevel": 0.008,
+    "tirePressurePSI": 34.0
+  },
+  {
+    "routeNumber": 18,
+    "startTime": "08:15 AM",
+    "busNumber": "KA 11 C 0948",
+    "gpsInfo": "GPRS user ID & password-mit0948",
+    "driverName": "Santhosh",
+    "driverPhone": 9845123456,
+    "stops": [
+      "Alladamadalli Gate",
+      "Kavalande Police Station",
+      "Badanavalu",
+      "Campus Road"
+    ],
+    "alcoholLevel": 0.014,
+    "tirePressurePSI": 32.5
+  },
+  {
+    "routeNumber": 19,
+    "startTime": "08:20 AM",
+    "busNumber": "KA 11 C 0949",
+    "gpsInfo": "GPRS user ID & password-mit0949",
+    "driverName": "Arun",
+    "driverPhone": 9449123456,
+    "stops": [
+      "Town Bus Stand",
+      "Market Circle",
+      "Hostel Road",
+      "College Gate"
+    ],
+    "alcoholLevel": 0.006,
+    "tirePressurePSI": 33.9
+  },
+  {
+    "routeNumber": 20,
+    "startTime": "08:25 AM",
+    "busNumber": "KA 11 C 0950",
+    "gpsInfo": "GPRS user ID & password-mit0950",
+    "driverName": "Kiran",
+    "driverPhone": 9739123456,
+    "stops": [
+      "Kanakapura Main Road",
+      "Bus Depot",
+      "Town Circle",
+      "College Campus"
+    ],
+    "alcoholLevel": 0.015,
+    "tirePressurePSI": 34.6
+  },
+  {
+    "routeNumber": 21,
+    "startTime": "08:30 AM",
+    "busNumber": "KA 11 C 0952",
+    "gpsInfo": "GPRS user ID & password-mit0952",
+    "driverName": "Raghavendra",
+    "driverPhone": 9884123456,
+    "stops": [
+      "Badanavalu",
+      "Kavalande Police Station",
+      "Alladamadalli Gate",
+      "Market Road",
+      "Campus Entry"
+    ],
+    "alcoholLevel": 0.011,
+    "tirePressurePSI": 32.8
+  },
+  {
+    "routeNumber": 22,
+    "startTime": "08:35 AM",
+    "busNumber": "KA 11 C 0953",
+    "gpsInfo": "GPRS user ID & password-mit0953",
+    "driverName": "Santosh Kumar",
+    "driverPhone": 9901123456,
+    "stops": [
+      "Thagadur",
+      "Alaganchi",
+      "Madapatna Boundary",
+      "Hostel Road",
+      "College Gate"
+    ],
+    "alcoholLevel": 0.013,
+    "tirePressurePSI": 33.1
+  },
+  {
+    "routeNumber": 23,
+    "startTime": "08:40 AM",
+    "busNumber": "KA 11 C 0954",
+    "gpsInfo": "GPRS user ID & password-mit0954",
+    "driverName": "Mahesh",
+    "driverPhone": 9844123456,
+    "stops": [
+      "Surabhi Lodge",
+      "Gundlupete Circle",
+      "Old RTO Office",
+      "Police Office",
+      "Town Circle"
+    ],
+    "alcoholLevel": 0.009,
+    "tirePressurePSI": 31.9
+  },
+  {
+    "routeNumber": 24,
+    "startTime": "08:45 AM",
+    "busNumber": "KA 11 C 0955",
+    "gpsInfo": "GPRS user ID & password-mit0955",
+    "driverName": "Girish",
+    "driverPhone": 9447123456,
+    "stops": [
+      "Begur Bus Stop",
+      "Begur Police Station",
+      "Konanuru",
+      "Panyada Hundi",
+      "Mariyala"
+    ],
+    "alcoholLevel": 0.017,
+    "tirePressurePSI": 35.4
+  },
+  {
+    "routeNumber": 25,
+    "startTime": "08:50 AM",
+    "busNumber": "KA 11 C 0956",
+    "gpsInfo": "GPRS user ID & password-mit0956",
+    "driverName": "Rajendra",
+    "driverPhone": 9737123456,
+    "stops": [
+      "Kollegala",
+      "Manasa",
+      "JSS College Stop",
+      "Rotary College",
+      "LIC Office"
+    ],
+    "alcoholLevel": 0.012,
+    "tirePressurePSI": 33.7
+  },
+  {
+    "routeNumber": 26,
+    "startTime": "08:55 AM",
+    "busNumber": "KA 11 C 0957",
+    "gpsInfo": "GPRS user ID & password-mit0957",
+    "driverName": "Anil",
+    "driverPhone": 9887123456,
+    "stops": [
+      "Narasipura Private Bus Stand",
+      "Market Circle",
+      "Temple Road",
+      "Main Circle"
+    ],
+    "alcoholLevel": 0.01,
+    "tirePressurePSI": 32.4
+  },
+  {
+    "routeNumber": 27,
+    "startTime": "09:00 AM",
+    "busNumber": "KA 11 C 0958",
+    "gpsInfo": "GPRS user ID & password-mit0958",
+    "driverName": "Deepak",
+    "driverPhone": 9847123456,
+    "stops": [
+      "Kanakapura Main Road",
+      "Bus Depot",
+      "Town Bus Stand",
+      "College Campus"
+    ],
+    "alcoholLevel": 0.016,
+    "tirePressurePSI": 34.8
+  },
+  {
+    "routeNumber": 28,
+    "startTime": "09:05 AM",
+    "busNumber": "KA 11 C 0959",
+    "gpsInfo": "GPRS user ID & password-mit0959",
+    "driverName": "Srinivas",
+    "driverPhone": 9446123456,
+    "stops": [
+      "CG Hundi",
+      "Devirammanahalli",
+      "Konanuru",
+      "Madapatna Boundary"
+    ],
+    "alcoholLevel": 0.007,
+    "tirePressurePSI": 31.6
+  },
+  {
+    "routeNumber": 29,
+    "startTime": "09:10 AM",
+    "busNumber": "KA 11 C 0960",
+    "gpsInfo": "GPRS user ID & password-mit0960",
+    "driverName": "Chethan",
+    "driverPhone": 9736123456,
+    "stops": [
+      "Bendarahalli Gate",
+      "Garaganahalli",
+      "Raghavapura Gate",
+      "Campus Road"
+    ],
+    "alcoholLevel": 0.014,
+    "tirePressurePSI": 33.3
+  },
+  {
+    "routeNumber": 30,
+    "startTime": "09:15 AM",
+    "busNumber": "KA 11 C 0961",
+    "gpsInfo": "GPRS user ID & password-mit0961",
+    "driverName": "Vinod",
+    "driverPhone": 9886123467,
+    "stops": [
+      "KSRTC Bus Stand",
+      "Gundlupete Circle",
+      "Surabhi Lodge",
+      "College Entry"
+    ],
+    "alcoholLevel": 0.012,
+    "tirePressurePSI": 34.1
+  }
+]
+
+
+
