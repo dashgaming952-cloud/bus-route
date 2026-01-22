@@ -1,4 +1,3 @@
-
 [
   {
     "routeNumber": 1,
@@ -8,13 +7,18 @@
     "driverName": "Putta Swamy",
     "driverPhone": 8884232798,
     "stops": [
-      "Rotary College",
-      "JSS College Stop",
-      "DYSP Office",
+      "JSS college stop chamarajanagara",
+      "DYSP Office ",
       "KEB Office",
       "Pachhappa Circle",
       "Maralli Circle",
-      "LIC Office"
+      "LIC Office",
+      "Mariyala",
+      "Panyada Hundi",
+      "Konanuru",
+      "CG Hundi",
+      "Goluru",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.007,
     "tirePressurePSI": 32.1
@@ -27,13 +31,26 @@
     "driverName": "Rajshekhar Murthy",
     "driverPhone": 8951886503,
     "stops": [
-      "Police Office",
-      "Old RTO Office",
+      " Police Office Chamrajanagara",
+      " Old RTO Office",
       "Gundlupete Circle",
-      "Aralimara (Gaalipura)",
+      "Aralimara ( Gaalipura)",
       "KSRTC Bus Stand",
-      "Pacchappa Circle",
-      "Maralli Circle"
+      "Pacchappa Ciricle",
+      "Maralli Circle",
+      "LIC Office",
+      "Badhanaguppe Temple",
+      "Badhanaguppe Bus Stop",
+      "Panyada Hundi 2nd Bus Stop",
+      "Bendravadi Maramma Temple",
+      "Heggavadi Gate",
+      "Kavalande Police station",
+      "Badanavalu",
+      "Nanjungud Temple",
+      "Kadakola",
+      "Sakkali Ring Road Petrol Bunk",
+      "Lalitaadri Pura",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.019,
     "tirePressurePSI": 35.9
@@ -50,7 +67,17 @@
       "Surabhi Lodge",
       "Bendarahalli Gate",
       "Garaganahalli",
-      "Raghavapura Gate"
+      "Raghavapura Gate",
+      " Madapatna Boundry",
+      "Begur Bus stop",
+      "Begur Police Station",
+      "Thondodi Gate",
+      "Hirikatte New stop",
+      "Helacha Gere",
+      "Kallahalli Gate",
+      "Banchalli Hundi (Paper Mill)",
+      "Mandakalli",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.015,
     "tirePressurePSI": 35.3
@@ -67,7 +94,9 @@
       "Alaganchi",
       "Madapatna Boundary",
       "Begur Bus Stop",
-      "Begur Police Station"
+      "Begur Police Station",
+      "Ambedkar Circle",
+      "MITM-Campus"
     ],
     "alcoholLevel": 0.012,
     "tirePressurePSI": 32.8
@@ -84,7 +113,8 @@
       "Devirammanahalli",
       "Panyada Hundi",
       "Konanuru",
-      "Mariyala"
+      "Mariyala",
+      "MITM-Campus"
     ],
     "alcoholLevel": 0.003,
     "tirePressurePSI": 32.7
@@ -100,7 +130,8 @@
       "Kollegala",
       "Manasa",
       "JSS College",
-      "Town Bus Stand"
+      "Town Bus Stand",
+      "MITM-campus"
     ],
     "alcoholLevel": 0.003,
     "tirePressurePSI": 32.7
@@ -115,7 +146,9 @@
     "stops": [
       "KSRTC Bus Stand",
       "Narasipura Road",
-      "Town Circle"
+      "Town Circle",
+      "Kurubar",
+      "MITM-CAMPUS"
     ],
     "alcoholLevel": 0.001,
     "tirePressurePSI": 33.2
@@ -130,7 +163,8 @@
     "stops": [
       "Narasipura Private Bus Stand",
       "Market Circle",
-      "College Road"
+      "College Road",
+      "MITM-CAMPUS"
     ],
     "alcoholLevel": 0.017,
     "tirePressurePSI": 34.1
@@ -145,7 +179,10 @@
     "stops": [
       "Narasipura KSRTC",
       "Temple Road",
-      "Main Circle"
+      "Main Circle",
+      "Kahalli",
+      "Alatthur Gate",
+      "MITM-CAMPUS"
     ],
     "alcoholLevel": 0.012,
     "tirePressurePSI": 33.7
@@ -160,7 +197,10 @@
     "stops": [
       "Kanakapura Main Road",
       "Bus Depot",
-      "College Campus"
+      "College Campus",
+      "TVS SHOWROOM",
+      "Kiragavalu Petrol Bunk",
+      "MITM-CAMPUS"
     ],
     "alcoholLevel": 0.014,
     "tirePressurePSI": 33.2
@@ -177,7 +217,8 @@
       "Begur Police Station",
       "Madapatna Boundary",
       "Thagadur",
-      "College Gate"
+      "Heggur Gate",
+      "MITM-CAMPUS"
     ],
     "alcoholLevel": 0.011,
     "tirePressurePSI": 33.6
@@ -194,7 +235,9 @@
       "Panyada Hundi",
       "Mariyala",
       "CG Hundi",
-      "Town Circle"
+      "Town Circle",
+      "Bonthagali",
+      "MITM-CAMPUS"
     ],
     "alcoholLevel": 0.013,
     "tirePressurePSI": 32.9
@@ -207,11 +250,20 @@
     "driverName": "Manjunath",
     "driverPhone": 9738123456,
     "stops": [
-      "Surabhi Lodge",
-      "Bendarahalli Gate",
-      "Garaganahalli",
-      "Raghavapura Gate",
-      "Campus Road"
+      "Bharathi College Gate KM Doddi",
+      "Bank Of Baroda Old  Bank",
+      "Gnanamudra School",
+      "Hanumantha Nagar Bus Stop",
+      "weigh bridge",
+      "Madrahalli",
+      "Kadiluvagilu Bus stand",
+      "Hemmige",
+      "Soonagahalli",
+      "Kabbanahalli",
+      "Boothana Hosur",
+      "Maharshi School Channapana doddi  Cross",
+      "Kirgandur Gate",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.009,
     "tirePressurePSI": 34.2
@@ -224,11 +276,18 @@
     "driverName": "Shivakumar",
     "driverPhone": 9986012345,
     "stops": [
-      "Police Office",
-      "Old RTO Office",
-      "Gundlupete Circle",
-      "KSRTC Bus Stand",
-      "Market Road"
+      "Kesthuru Bus stop",
+      "Thore Shettahalli",
+      "Yaganahalli",
+      "Kadur Gate",
+      "Hemnhalli",
+      "Thimdos Hotel",
+      "Shivapura",
+      "Koppa Circle LIC Office",
+      "LIC Circle Maddur",
+      "Maddur Bus Stop",
+      "TB circle",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.016,
     "tirePressurePSI": 35.1
@@ -241,11 +300,19 @@
     "driverName": "Harish",
     "driverPhone": 9448123456,
     "stops": [
-      "Kollegala",
-      "Manasa",
-      "JSS College Stop",
-      "DYSP Office",
-      "KEB Office"
+      "Gutthalu Aralimara Mandya",
+      "Gutthalu Mourya Grand Mandya",
+      "Gutthalu Society Mandya",
+      "Gutthalu Vimal Convent Mandya",
+      "Gutthalu Anjaneya Temple Mandya",
+      "Kuvempu School Water Tank",
+      "Factory Circle",
+      "Hop Coms / Court Circle",
+      "Siddayyana koppalu",
+      "Sundalli",
+      "Yeliyur",
+      "Kalenhalli Gate",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.01,
     "tirePressurePSI": 31.8
@@ -258,10 +325,22 @@
     "driverName": "Naveen",
     "driverPhone": 9902123456,
     "stops": [
-      "Narasipura KSRTC",
-      "Temple Road",
-      "Narasipura Market",
-      "College Road"
+      "Chanapatna KSRTC Bus Stand",
+      "Baira Patna",
+      "Nidgatta",
+      "Madhur Bus Stop",
+      "TB Circle",
+      "Yalaniru Mandi",
+      "Sada Holalu",
+      "Hankere",
+      "Budanooru",
+      "Halebudhnuru",
+      "Umbralli Gate",
+      "Fire Station",
+      "Swarna Sandra",
+      "KSRTC Depo",
+      "kiragandur Gate",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.012,
     "tirePressurePSI": 33.4
@@ -274,10 +353,20 @@
     "driverName": "Prakash",
     "driverPhone": 9742123456,
     "stops": [
-      "Rotary College",
-      "Pachhappa Circle",
-      "Maralli Circle",
-      "LIC Office"
+      "Bisilu maramma Temple Hosalli (Mandya)",
+      "Basavaeshwara Temple",
+      "Venkateswara Temple",
+      "Shankarappa Layout",
+      "Kavery Nagar 1St Cross",
+      "Nandini Parlour",
+      "Sadvidya School",
+      "Kaluve Road",
+      "Karasavadi Road Arlikatte",
+      "Thoobina Kere",
+      "Pandavapura Adda road",
+      "TM Hosur Gate",
+      "Babarayana Koppalu",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.008,
     "tirePressurePSI": 34.0
@@ -290,10 +379,15 @@
     "driverName": "Santhosh",
     "driverPhone": 9845123456,
     "stops": [
-      "Alladamadalli Gate",
-      "Kavalande Police Station",
-      "Badanavalu",
-      "Campus Road"
+      "Kannikaparameshwari Temple Water Tank Mandya",
+      "Chamundeshwari Temple",
+      "SBI ATM",
+      "Surya Medical",
+      "MG layout",
+      "VV Nagar 17th Cross",
+      "VV Nagar 21st Cross",
+      "Gooligowda Circle",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.014,
     "tirePressurePSI": 32.5
@@ -306,10 +400,23 @@
     "driverName": "Arun",
     "driverPhone": 9449123456,
     "stops": [
-      "Town Bus Stand",
-      "Market Circle",
-      "Hostel Road",
-      "College Gate"
+      "Keragodu",
+      "Marlingana Doddi",
+      "Honnayakana Halli Gate",
+      "SI Kodahalli Gate Weigh Bridge",
+      "Hulivana",
+      "Honagenahalli Bus Stop",
+      "Kommerhalli",
+      "Sathanuru Bunk",
+      "Sathanuru Main Bus Stand",
+      "Sathanuru Last Stop",
+      "Chikkamandya",
+      "Chikkamandya Lake",
+      "Karemane Gate Bharat Petrol Bunk",
+      "Holalu circle",
+      "Sanjay Circle",
+      "Yeliyur Kodi",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.006,
     "tirePressurePSI": 33.9
@@ -322,10 +429,16 @@
     "driverName": "Kiran",
     "driverPhone": 9739123456,
     "stops": [
-      "Kanakapura Main Road",
-      "Bus Depot",
-      "Town Circle",
-      "College Campus"
+      "Mandya Housing Board",
+      "Annapoorneshwari Nagar",
+      "Gowri Shankar Kalyana Mantapa",
+      "PES College Road",
+      "Someshwara Choultry",
+      "Bisilumaramma Temple",
+      "Kodishetty pura",
+      "Gowri Pura",
+      "Karigatta Road",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.015,
     "tirePressurePSI": 34.6
@@ -338,11 +451,11 @@
     "driverName": "Raghavendra",
     "driverPhone": 9884123456,
     "stops": [
-      "Badanavalu",
-      "Kavalande Police Station",
-      "Alladamadalli Gate",
-      "Market Road",
-      "Campus Entry"
+      "Mandya Housing Board ",
+      "Annapoorneshwari Nagar",
+      "PES College Road",
+      "Gowri Pura",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.011,
     "tirePressurePSI": 32.8
@@ -355,11 +468,11 @@
     "driverName": "Santosh Kumar",
     "driverPhone": 9901123456,
     "stops": [
-      "Thagadur",
-      "Alaganchi",
-      "Madapatna Boundary",
-      "Hostel Road",
-      "College Gate"
+      "Keragodu  ",
+      "Hulivana  ",
+      "Sathanuru Bunk",
+      "Sanjay Circle ",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.013,
     "tirePressurePSI": 33.1
@@ -372,11 +485,11 @@
     "driverName": "Mahesh",
     "driverPhone": 9844123456,
     "stops": [
-      "Surabhi Lodge",
+      "Maragowdana Halli",
       "Gundlupete Circle",
-      "Old RTO Office",
-      "Police Office",
-      "Town Circle"
+      "Hombale Gowdana Doddi",
+      "Kallalli Bus Stop",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.009,
     "tirePressurePSI": 31.9
@@ -389,11 +502,11 @@
     "driverName": "Girish",
     "driverPhone": 9447123456,
     "stops": [
-      "Begur Bus Stop",
+      "Bevina Halli Shivana Temple",
       "Begur Police Station",
-      "Konanuru",
-      "Panyada Hundi",
-      "Mariyala"
+      "P Halli  Vishweshwarayya Circle",
+      "Kodiyala Hospital",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.017,
     "tirePressurePSI": 35.4
@@ -406,11 +519,11 @@
     "driverName": "Rajendra",
     "driverPhone": 9737123456,
     "stops": [
-      "Kollegala",
-      "Manasa",
-      "JSS College Stop",
-      "Rotary College",
-      "LIC Office"
+      "Beleekere",
+      "See Halli",
+      "GendeHosalli",
+      "Hosuru",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.012,
     "tirePressurePSI": 33.7
@@ -423,10 +536,10 @@
     "driverName": "Anil",
     "driverPhone": 9887123456,
     "stops": [
-      "Narasipura Private Bus Stand",
-      "Market Circle",
-      "Temple Road",
-      "Main Circle"
+      "Nagamangala Bus Stop",
+      "Nagamangala Town",
+      "Hosmane Honkere Gate",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.01,
     "tirePressurePSI": 32.4
@@ -439,10 +552,13 @@
     "driverName": "Deepak",
     "driverPhone": 9847123456,
     "stops": [
-      "Kanakapura Main Road",
-      "Bus Depot",
-      "Town Bus Stand",
-      "College Campus"
+      "Maralegala",
+      "Doddapalya",
+      "Chikkapalya",
+      "Angarahalli",
+      "Rammanahalli Bus stand",
+      "Rammanahalli Petrol Bunk",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.016,
     "tirePressurePSI": 34.8
@@ -455,10 +571,10 @@
     "driverName": "Srinivas",
     "driverPhone": 9446123456,
     "stops": [
-      "CG Hundi",
-      "Devirammanahalli",
-      "Konanuru",
-      "Madapatna Boundary"
+      "Hosalli",
+      "Junior College",
+      "KonanuruIB Stop",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.007,
     "tirePressurePSI": 31.6
@@ -471,10 +587,12 @@
     "driverName": "Chethan",
     "driverPhone": 9736123456,
     "stops": [
-      "Bendarahalli Gate",
-      "Garaganahalli",
-      "Raghavapura Gate",
-      "Campus Road"
+      "Hone Madu Gate",
+      "Sambunalli Mavina Mara",
+      "Borapura Gate",
+      "Padavapura Railway Station ",
+      "Kirangoor",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.014,
     "tirePressurePSI": 33.3
@@ -487,15 +605,16 @@
     "driverName": "Vinod",
     "driverPhone": 9886123467,
     "stops": [
-      "KSRTC Bus Stand",
-      "Gundlupete Circle",
-      "Surabhi Lodge",
-      "College Entry"
+      "Akki Hebbalu",
+      "Singanahalli Gate",
+      "Beryae",
+      "Mirle",
+      "Beachnalli",
+      "Gandana Halli",
+      "Hunsur Circle ",
+      "M I T Mysore -  College Campus"
     ],
     "alcoholLevel": 0.012,
     "tirePressurePSI": 34.1
   }
 ]
-
-
-
