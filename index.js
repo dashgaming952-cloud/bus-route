@@ -1,77 +1,42 @@
-function toggleInputs(type) {
-  const route = document.getElementById("routeNumber");
-  const stop = document.getElementById("stopName");
+const params = new URLSearchParams(window.location.search);
+const route = params.get("route");
+const stop = params.get("stop");
 
-  if (type === "route" && route.value) {
-    stop.value = ""; // auto-clear stop
-  }
+const output = document.getElementById("output");
 
-  if (type === "stop" && stop.value) {
-    route.value = ""; // auto-clear route
-  }
-}
-
-async function searchBus() {
-  const routeNumber = document.getElementById("routeNumber").value.trim();
-  const stopName = document.getElementById("stopName").value.trim().toLowerCase();
-  const output = document.getElementById("output");
-  const btn = document.getElementById("searchBtn");
-
-  if (!routeNumber && !stopName) {
-    output.innerHTML =
-      "<p class='error'>Please enter Route Number or Stop Name</p>";
-    return;
-  }
-
-  btn.innerText = "Searching...";
-  output.innerHTML = "";
-
+async function loadResults() {
   try {
     const res = await fetch("bus_routes.json");
     const buses = await res.json();
 
     const results = buses.filter(bus =>
-      (routeNumber && bus.routeNumber.toString() === routeNumber) ||
-      (stopName && bus.stops.some(s => s.toLowerCase().includes(stopName)))
+      (route && bus.routeNumber.toString() === route) ||
+      (stop && bus.stops.some(s => s.toLowerCase().includes(stop.toLowerCase())))
     );
 
-    btn.innerText = "Search";
-
     if (results.length === 0) {
-      output.innerHTML = "<p class='error'>No buses found</p>";
+      output.innerHTML = "<p>No buses found</p>";
       return;
     }
 
     results.forEach(bus => {
       output.innerHTML += `
         <div class="result-card">
-          <span class="badge">Route ${bus.routeNumber}</span>
-          <p><strong>Bus:</strong> ${bus.busNumber}</p>
-          <p>⏰ ${bus.startTime}</p>
-          <p>👨‍✈️ <b>Driver:</b> ${bus.driverName}</p>
-          <p>📞 <b>Phone:</b> ${bus.driverPhone}</p>
-          <p> <b>Alcohol Level:</b> ${bus.alcoholLevel}<b> BAC</b></p>
-          <p>🛞 <b>Tire Pressure:</b> ${bus.tirePressurePSI} PSI</p>
-          <p class="stops">
-            ${bus.stops.map(s => `• ${s}`).join("<br>")}
-          </p>
+          <h3>Route ${bus.routeNumber}</h3>
+          <p><b>Bus:</b> ${bus.busNumber}</p>
+          <p><b>Start:</b> ${bus.startTime}</p>
+          <p><b>Driver:</b> ${bus.driverName}</p>
+          <p><b>Phone:</b> ${bus.driverPhone}</p>
+          <p><b>Alcohol:</b> ${bus.alcoholLevel} BAC</p>
+          <p><b>Tire:</b> ${bus.tirePressurePSI} PSI</p>
+          <p>${bus.stops.map(s => `• ${s}`).join("<br>")}</p>
         </div>
       `;
     });
 
   } catch (err) {
-    btn.innerText = "Search";
-    output.innerHTML =
-      "<p class='error'>Failed to load bus data</p>";
-    console.error(err);
+    output.innerHTML = "<p>Error loading data</p>";
   }
 }
 
-/* ✅ Trigger search ONLY when Enter is pressed in inputs */
-["routeNumber", "stopName"].forEach(id => {
-  document.getElementById(id).addEventListener("keydown", e => {
-    if (e.key === "Enter") {
-      searchBus();
-    }
-  });
-});
+loadResults();
