@@ -1,135 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <title>Bus Search</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Font Awesome Icons -->
-  <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    rel="stylesheet"
-  >
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+  <title>MIT Mysore Bus Route Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
   <div class="glass-card">
 
-    <!-- ✅ CARD HEADER -->
-    <div class="card-header">
-      <i class="fa-solid fa-bus header-bus"></i>
+    <img src="Screenshot (38).png" class="logo" />
+    <h1>MIT Mysore</h1>
+    <p>Bus Route Information System</p>
+    <!-- Team Info -->
+    <div class="team-section">
+      <div class="team-name">🚍 INSPIRA</div>
 
-      <div class="header-title">
-        Bus Search
-      </div>
-
-      <div class="header-credit">
-        From Yeshwanth & Team
+      <div class="team-members">
+        <span>Yeshwanth.M</span>
+        <span>Vipul</span>
+        <span>Pavan.S.J</span>
+        <span>kishan</span>
+        <span>Ayesha Maheen</span>
+        <span>kashish</span>
       </div>
     </div>
 
-    <p class="subtitle">Search by Route Number or Stop Name</p>
-
-    <!-- Route Input -->
     <div class="input-box">
-      <i class="fa-solid fa-road"></i>
-      <input
-        type="number"
-        id="routeNumber"
-        placeholder="Enter Route Number"
-        oninput="toggleInputs('route')"
-      >
+      <input type="number" id="routeNumber" placeholder="Enter Route Number" />
     </div>
 
     <div class="or-divider">OR</div>
 
-    <!-- Stop Input -->
     <div class="input-box">
-      <i class="fa-solid fa-location-dot"></i>
-      <input
-        type="text"
-        id="stopName"
-        placeholder="Enter Stop Name"
-        oninput="toggleInputs('stop')"
-      >
+      <input type="text" id="stopName" placeholder="Enter Stop Name" />
     </div>
 
-    <!-- Button -->
-    <button id="searchBtn" onclick="searchBus()">Search</button>
-
-    <!-- Output -->
-    <div id="output"></div>
+    <button id="searchBtn">Search</button>
 
   </div>
 
-<script>
-function toggleInputs(type) {
-  const route = document.getElementById("routeNumber");
-  const stop = document.getElementById("stopName");
-
-  if (type === "route" && route.value) {
-    stop.value = "";
-  }
-  if (type === "stop" && stop.value) {
-    route.value = "";
-  }
-}
-
-async function searchBus() {
-  const routeNumber = document.getElementById("routeNumber").value;
-  const stopName = document.getElementById("stopName").value;
-  const output = document.getElementById("output");
-  const btn = document.getElementById("searchBtn");
-
-  if (!routeNumber && !stopName) {
-    output.innerHTML = "<p class='error'>Please enter Route Number or Stop Name</p>";
-    return;
-  }
-
-  btn.innerText = "Searching...";
-  output.innerHTML = "";
-
-  let url = "/search?";
-  if (routeNumber) url += `routeNumber=${routeNumber}&`;
-  if (stopName) url += `stop=${stopName}`;
-
-  try {
-    const res = await fetch(url);
-    const data = await res.json();
-
-    btn.innerText = "Search";
-
-    if (data.error) {
-      output.innerHTML = `<p class="error">${data.error}</p>`;
-      return;
-    }
-
-    data.forEach(bus => {
-      output.innerHTML += `
-        <div class="result-card">
-          <span class="badge">Route ${bus.routeNumber}</span>
-          <p>🚌 <b>Bus:</b> ${bus.busNumber}</p>
-          <p>⏰ <b>Start:</b> ${bus.startTime}</p>
-          <p>👨‍✈️ <b>Driver:</b> ${bus.driverName}</p>
-          <p>📞 <b>Phone:</b> ${bus.driverPhone}</p>
-          <p>🍺 <b>Alcohol:</b> ${bus.alcoholLevel}<b>BAC</b></p>
-          <p>🛞 <b>Tire:</b> ${bus.tirePressurePSI} PSI</p>
-          <p class="stops">${bus.stops.replaceAll("|", " • ")}</p>
-        </div>
-      `;
-    });
-
-  } catch (err) {
-    btn.innerText = "Search";
-    output.innerHTML = "<p class='error'>Server error</p>";
-  }
-}
-</script>
-<script src="index.js"></script>
-
+  <script src="home.js"></script>
 </body>
+
 </html>
