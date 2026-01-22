@@ -50,7 +50,7 @@ async function searchBus() {
           <p>⏰ ${bus.startTime}</p>
           <p>👨‍✈️ <b>Driver:</b> ${bus.driverName}</p>
           <p>📞 <b>Phone:</b> ${bus.driverPhone}</p>
-          <p> <b>Alcohol Level:</b> ${bus.alcoholLevel}</p>
+          <p> <b>Alcohol Level:</b> ${bus.alcoholLevel}<b> BAC</b></p>
           <p>🛞 <b>Tire Pressure:</b> ${bus.tirePressurePSI} PSI</p>
           <p class="stops">
             ${bus.stops.map(s => `• ${s}`).join("<br>")}
