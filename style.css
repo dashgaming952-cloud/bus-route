@@ -4,96 +4,144 @@
   box-sizing: border-box;
 }
 
-/* Background */
+/* =========================
+   PAGE BACKGROUND
+========================= */
 body {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top, #e0e7ff, #f8fafc 60%),
-    linear-gradient(135deg, #dbeafe, #f8fafc);
+  font-family: "Inter", system-ui, sans-serif;
+  background: radial-gradient(circle at top, #111827, #020617 75%);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 24px;
+  color: #e5e7eb;
 }
 
-/* Glass Card */
+/* =========================
+   MAIN CARD
+========================= */
 .glass-card {
   width: 100%;
-  max-width: 500px;
-  padding: 32px;
-  border-radius: 28px;
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  max-width: 520px;
+  padding: 36px 32px;
+  border-radius: 26px;
+  background: linear-gradient(180deg, #0b1220, #020617);
+  border: 1px solid rgba(255,255,255,0.08);
   box-shadow:
-    0 40px 80px rgba(0,0,0,0.15),
-    inset 0 1px 0 rgba(255,255,255,0.6);
-  border: 1px solid rgba(255,255,255,0.5);
+    0 40px 90px rgba(0,0,0,0.85),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* =========================
+   HEADER (PERFECT CENTER)
+========================= */
+.card-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+/* Logo */
+.logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  margin: 0 auto 14px auto;
 }
 
 /* Title */
-.title {
-  text-align: center;
+.header-title {
   font-size: 2rem;
-  font-weight: 800;
-  letter-spacing: -0.5px;
-  color: #1e3a8a;
+  font-weight: 900;
+  color: #f9fafb;
+  margin-bottom: 6px;
+  letter-spacing: -0.4px;
 }
 
+/* Subtitle */
 .subtitle {
-  text-align: center;
   font-size: 14px;
-  color: #64748b;
-  margin-top: 6px;
+  color: #9ca3af;
+  margin-bottom: 26px;
+}
+
+/* =========================
+   TEAM SECTION
+========================= */
+.team-section {
+  text-align: center;
   margin-bottom: 28px;
 }
 
-/* Input Box */
-.input-box {
+.team-name {
+  font-size: 19px;
+  font-weight: 900;
+  color: #60a5fa;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+}
+
+.team-members {
   display: flex;
-  align-items: center;
-  padding: 15px 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.team-members span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f9fafb;
+  background: rgba(255,255,255,0.06);
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* =========================
+   INPUTS
+========================= */
+.input-box {
+  background: rgba(255,255,255,0.06);
   border-radius: 16px;
-  background: #f1f5f9;
+  padding: 15px 18px;
   margin-bottom: 14px;
   transition: all 0.25s ease;
 }
 
-.input-box i {
-  color: #2563eb;
-  font-size: 18px;
-  margin-right: 12px;
-}
-
 .input-box input {
-  border: none;
-  background: transparent;
-  outline: none;
   width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
   font-size: 15px;
   font-weight: 500;
-  color: #0f172a;
+  color: #f9fafb;
 }
 
 .input-box input::placeholder {
-  color: #94a3b8;
+  color: #9ca3af;
 }
 
 .input-box:focus-within {
-  background: #ffffff;
-  box-shadow:
-    0 0 0 3px rgba(37,99,235,0.25),
-    0 6px 18px rgba(37,99,235,0.15);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 0 0 2px rgba(96,165,250,0.35);
 }
 
-/* OR Divider */
+/* =========================
+   OR DIVIDER
+========================= */
 .or-divider {
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  color: #94a3b8;
-  margin: 18px 0;
+  color: #9ca3af;
+  margin: 20px 0;
   position: relative;
 }
 
@@ -104,58 +152,62 @@ body {
   top: 50%;
   width: 38%;
   height: 1px;
-  background: linear-gradient(to right, transparent, #cbd5e1);
+  background: linear-gradient(to right, transparent, #374151);
 }
 
 .or-divider::after {
-  background: linear-gradient(to left, transparent, #cbd5e1);
+  right: 0;
+  background: linear-gradient(to left, transparent, #374151);
 }
 
-.or-divider::before { left: 0; }
-.or-divider::after { right: 0; }
+.or-divider::before {
+  left: 0;
+}
 
-/* Button */
+/* =========================
+   SEARCH BUTTON
+========================= */
 button {
   width: 100%;
-  padding: 16px;
+  padding: 17px;
   border-radius: 18px;
   border: none;
-  background: linear-gradient(135deg, #2563eb, #3b82f6);
-  color: white;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   cursor: pointer;
-  margin-top: 14px;
-  box-shadow:
-    0 14px 30px rgba(37,99,235,0.45);
+  margin-top: 18px;
+  box-shadow: 0 18px 40px rgba(37,99,235,0.6);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 18px 38px rgba(37,99,235,0.55);
+  box-shadow: 0 22px 48px rgba(37,99,235,0.75);
 }
 
 button:active {
   transform: translateY(0);
-  box-shadow: 0 10px 20px rgba(37,99,235,0.35);
 }
 
-/* Output */
+/* =========================
+   OUTPUT PAGE
+========================= */
 #output {
-  margin-top: 26px;
+  margin-top: 28px;
 }
 
-/* Result Card */
+/* =========================
+   RESULT CARD
+========================= */
 .result-card {
-  background: linear-gradient(180deg, #ffffff, #f8fafc);
-  border-radius: 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 18px;
   padding: 18px;
   margin-bottom: 16px;
-  box-shadow:
-    0 12px 28px rgba(0,0,0,0.08);
-  border: 1px solid #e5e7eb;
-  animation: fadeIn 0.35s ease;
+  border: 1px solid rgba(255,255,255,0.08);
+  animation: fadeIn 0.3s ease;
 }
 
 @keyframes fadeIn {
@@ -174,99 +226,68 @@ button:active {
   display: inline-block;
   background: linear-gradient(135deg, #2563eb, #1d4ed8);
   color: white;
-  padding: 5px 12px;
+  padding: 6px 14px;
   border-radius: 999px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 10px;
 }
 
-/* Result text */
+/* Text */
 .result-card p {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 6px;
-  color: #1f2937;
+  color: #e5e7eb;
 }
 
 .stops {
   margin-top: 10px;
   font-size: 13px;
-  color: #475569;
-  padding-left: 4px;
+  color: #c7d2fe;
 }
 
-/* Error */
+/* =========================
+   ERROR
+========================= */
 .error {
   text-align: center;
-  color: #dc2626;
-  font-weight: 700;
-  background: #fee2e2;
+  color: #f87171;
+  font-weight: 800;
+  background: rgba(248,113,113,0.15);
   padding: 12px;
   border-radius: 12px;
 }
-/* Card Header */
-.card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 14px;
-}
 
-/* DASH logo */
-.dash-logo {
-  height: 26px;
-  opacity: 0.9;
-}
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 480px) {
+  .glass-card {
+    padding: 28px 22px;
+  }
 
-/* Center title */
-.header-title {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: #1e3a8a;
-}
+  .header-title {
+    font-size: 1.7rem;
+  }
 
-.header-title i {
-  color: #2563eb;
-  font-size: 1.4rem;
+  .logo {
+    height: 48px;
+  }
 }
-
-/* Right text */
-.header-credit {
-  font-size: 12px;
-  font-weight: 600;
-  color: #64748b;
-  white-space: nowrap;
-}
-/* Header inside card */
-.card-header {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  margin-bottom: 8px;
-}
-
-/* Bus icon */
-.header-bus {
-  font-size: 22px;
-  color: #2563eb;
-}
-
-/* Center title */
-.header-title {
+h1,h3 {
+  width: 100%;
   text-align: center;
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: #1e3a8a;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #f9fafb;
+  margin: 8px 0 4px 0;
 }
 
-/* Right credit */
-.header-credit {
-  font-size: 12px;
-  font-weight: 600;
-  color: #64748b;
-  white-space: nowrap;
+p {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #9ca3af;
+  margin: 0 0 26px 0;
 }
